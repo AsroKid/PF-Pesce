@@ -1,0 +1,37 @@
+section {
+  padding: 20px;
+  text-align: center;
+  img {
+    border: 4px solid rgb(66, 66, 66);
+    border-radius: 10px;
+
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+}
+.cuadros {
+  border: 6px solid rgb(161, 11, 11);
+  background-color: gray;
+  border-radius: 10px;
+  .botones {
+    border: 6px solid rgb(107, 107, 107);
+    background-color: firebrick;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+}
+.seccion-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.tamañoimg {
+  @extend %tamañoimagen 
+}
+
+.botones:hover {
+  background-color: rgb(36, 5, 5);
+}
